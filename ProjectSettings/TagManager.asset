@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Number
+  - OtherGround
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Ground
+  - Player
+  - Cold
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3504139735
+    locked: 0
+  - name: Ground
+    uniqueID: 97982255
+    locked: 0
+  - name: GroundDecoration
+    uniqueID: 1922360917
+    locked: 0
+  - name: FrontGround
+    uniqueID: 1616052073
+    locked: 0
+  - name: Player
+    uniqueID: 963805713
+    locked: 0
+  - name: FrontDecoration
+    uniqueID: 587478731
+    locked: 0
+  - name: WorldUI
+    uniqueID: 119788629
+    locked: 0
+  - name: Effects
+    uniqueID: 2387021415
+    locked: 0
+  - name: FirstUI
+    uniqueID: 6766495
+    locked: 0
+  - name: FrontUI
+    uniqueID: 3671066459
+    locked: 0
+  - name: WinterStar
+    uniqueID: 2737693771
+    locked: 0
