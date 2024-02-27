@@ -22,7 +22,7 @@ public class LevelControl : MonoBehaviour
     private void Awake()
     {
 
-        SceneId = SceneManager.GetActiveScene().buildIndex - 2;
+        SceneId = SceneManager.GetActiveScene().buildIndex - 1;
 #if UNITY_EDITOR
         Constants.isEditor = true;
 #endif

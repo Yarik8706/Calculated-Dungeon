@@ -65,8 +65,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1569545262, guid: 5dafbf567e02ffb46ad552242798973e, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: -1079483578, guid: 5dafbf567e02ffb46ad552242798973e, type: 3}
+  m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -174,7 +174,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -349,6 +349,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isLevelForRecord: {fileID: 8591860641464774138}
   levelCompleteImage: {fileID: 7243149943981040380}
+  image: {fileID: 1929113397168220901}
+  baseSprite: {fileID: -1079483578, guid: 5dafbf567e02ffb46ad552242798973e, type: 3}
+  playSprite: {fileID: 1840720460, guid: 5dafbf567e02ffb46ad552242798973e, type: 3}
 --- !u!1 &7243149943981040380
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +444,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &6983481619145371378
 RectTransform:
   m_ObjectHideFlags: 0

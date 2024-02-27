@@ -29,6 +29,7 @@ public class TimerBar : MonoBehaviour
     private void Start()
     {
         RestartTimer();
+        timerText.gameObject.SetActive(false);
     }
 
     public void SaveRecord()
@@ -40,12 +41,12 @@ public class TimerBar : MonoBehaviour
 
     private void Update()
     {
-        if (saveIndex != -1)
-        {
-            if(LevelControl.Instance.IsDefeat || LevelControl.Instance.IsWin) return;
-            _activeTime += Time.deltaTime;
-            timerText.text = (Mathf.Round(_activeTime*10)/10) + "";
-        }
+        // if (saveIndex != -1)
+        // {
+        //     if(LevelControl.Instance.IsDefeat || LevelControl.Instance.IsWin) return;
+        //     _activeTime += Time.deltaTime;
+        //     timerText.text = (Mathf.Round(_activeTime*10)/10) + "";
+        // }
         if (LevelControl.Instance.IsWin || LevelControl.Instance.IsDefeat || !LevelControl.Instance.IsGameStart) return;
         slider.value = timer / timerTotal;
         timer -= Time.deltaTime;

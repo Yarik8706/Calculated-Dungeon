@@ -11,8 +11,6 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private float forseX = 50f;
     [SerializeField] private float maxSpeedX = 10f;
     [SerializeField] private float jumpForse = 20f;
-    [SerializeField] private bool faceRight = true;
-    [SerializeField] private bool isGrounded;
     [SerializeField] private Transform groundCheck;
     [SerializeField] private float chackRadius = 0.1f;
     [SerializeField] private LayerMask whatIsGround;
@@ -23,9 +21,9 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] private ParticleSystem runEffect;
     [SerializeField] private ParticleSystem jumpEffect;
     
-    
     private Rigidbody2D _rigidbody2D;
-    
+    private bool faceRight = true;
+    private bool isGrounded;
     private bool _iAmDeshing;
     private bool _canDesh = true;
     private float _deshTimeNow;
@@ -33,7 +31,7 @@ public class PlayerControl : MonoBehaviour
     private float _currentRunEffectCooldwon;
     private float scaleMovementInAir = 0.3f;
 
-    internal float NowXVelocity { get; set; }
+    private float NowXVelocity { get; set; }
     public float NowYVelocity { get; set; }
     public float MoveX { get; set; }
     public bool LestJump { get; set; }
@@ -99,9 +97,8 @@ public class PlayerControl : MonoBehaviour
         NowYVelocity = _rigidbody2D.velocity.y;
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
-        // Деш в сторону
         if (LestDesh)
         {
             LestDesh = false;

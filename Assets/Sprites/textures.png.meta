@@ -963,7 +963,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -971,6 +971,90 @@ TextureImporter:
       bones: []
       spriteID: 84efe44b65c098d46b446a9e05fe8306
       internalID: -1742778048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayButton
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 992
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d65c937b0832b48b6db1425763eb9f
+      internalID: 82449116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SettingsButton
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 976
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e27b781308d474186cd6adf7359a04
+      internalID: 1073891893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: formUI
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1004
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 1, y: 1, z: 1, w: 1}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c8f4917868c89479570dfe9bd702e6
+      internalID: -1079483578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayLevel
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 996
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfb15e9fd67edc4d8b6fb6e1e709979
+      internalID: 1840720460
       vertices: []
       indices: 
       edges: []
@@ -991,7 +1075,10 @@ TextureImporter:
       JumpUI: 1950850485
       LevelComplete: 1006639870
       LevelUI: -1569545262
+      PlayButton: 82449116
+      PlayLevel: 1840720460
       RightArrow: 1039444445
+      SettingsButton: 1073891893
       exit: 741302642
       exit10: -1600994988
       exit11: -1207536709
@@ -1009,6 +1096,7 @@ TextureImporter:
       exit_open: 144384095
       floorTrap1: -399591918
       floorTrap2: -746436357
+      formUI: -1079483578
       joystick1: 1709526987
       joystick2: 920936953
       lamp: -772267842
